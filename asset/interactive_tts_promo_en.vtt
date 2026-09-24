@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.700 --> 00:00:04.117
+In a conversation, the right words are only half the answer.
+
+00:00:04.277 --> 00:00:07.162
+How should a voice change as the situation changes?
+
+00:00:08.572 --> 00:00:15.356
+Interactive TTS adapts speaking style across dialogue turns, while preserving the same speaker identity.
+
+00:00:15.516 --> 00:00:21.057
+It follows explicit requests and infers implicit cues from text, audio, and video.
+
+00:00:22.467 --> 00:00:27.556
+Existing context-aware TTS typically maps dialogue history to speech implicitly.
+
+00:00:27.716 --> 00:00:33.290
+Style decisions are hard to supervise, and frequent style changes can cause timbre drift.
+
+00:00:34.700 --> 00:00:39.951
+Our key idea is to separate contextual style decisions from their acoustic realization.
+
+00:00:40.111 --> 00:00:43.934
+An executable style instruction connects perception and expression.
+
+00:00:45.344 --> 00:00:50.781
+At each turn, Context-to-Instruction receives the interaction history and the target text.
+
+00:00:50.941 --> 00:00:57.302
+The speech generator uses that text, the predicted instruction, and a persistent reference-speaker prompt.
+
+00:00:58.712 --> 00:01:05.946
+C2I learns from rationale supervision and on-policy self-distillation, helping it interpret sparse multimodal cues.
+
+00:01:06.106 --> 00:01:09.732
+Only the final style instruction is passed to the speech generator.
+
+00:01:11.142 --> 00:01:17.938
+Iterative rejection sampling selects generated candidates that better follow the instruction and preserve speaker identity.
+
+00:01:18.098 --> 00:01:23.547
+Context-aware DPO then learns which valid realization best fits the original interaction.
+
+00:01:25.492 --> 00:01:30.372
+File three is in the second drawer on your left.
+
+00:01:32.092 --> 00:01:37.212
+I'm so happy for you! You deserve this. Celebrate!
+
+00:01:38.992 --> 00:01:45.952
+Failing once doesn't mean you're useless. You've worked hard; let's work out what to adjust next time.
+
+00:01:47.342 --> 00:01:55.484
+Interactive TTS. Explicit style decisions, contextually appropriate expression, and a consistent speaker across turns.
