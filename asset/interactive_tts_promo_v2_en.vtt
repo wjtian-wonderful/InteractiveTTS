@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.550 --> 00:00:04.894
+The words can be right, but the voice can still feel wrong for the moment.
+
+00:00:08.383 --> 00:00:14.802
+Interactive TTS adapts how an assistant speaks to the situation. Let's see three
+
+00:00:14.802 --> 00:00:15.295
+examples.
+
+00:00:16.675 --> 00:00:22.651
+First, watch this quiet-room interaction. Notice the cue for a softer reply.
+
+00:00:36.967 --> 00:00:41.311
+Now listen to the generated reply. It stays soft and gentle.
+
+00:00:42.675 --> 00:00:44.474
+The weather looks good this weekend.
+
+00:00:44.474 --> 00:00:47.814
+We could visit a nearby wetland park.
+
+00:00:47.814 --> 00:00:51.155
+It's quiet and uncrowded, just right for relaxing.
+
+00:00:53.342 --> 00:00:58.838
+Next, a train is arriving. The assistant needs to be heard over the noise.
+
+00:01:10.175 --> 00:01:15.143
+The generated reply uses a louder voice and a slightly faster pace.
+
+00:01:16.508 --> 00:01:19.058
+The next train to the airport arrives in four minutes.
+
+00:01:19.058 --> 00:01:20.758
+Take exit B when you arrive.
+
+00:01:20.758 --> 00:01:23.308
+Turn right after the gates for the airport bus stop.
+
+00:01:25.467 --> 00:01:31.539
+Here, the user is sharing good news. Notice the emotion before you hear the response.
+
+00:01:42.883 --> 00:01:47.227
+The reply becomes warm and happy, matching the moment.
+
+00:01:48.592 --> 00:01:50.736
+That's wonderful, I'm so happy for you!
+
+00:01:50.736 --> 00:01:55.024
+Your hard work brought you here. You deserve it.
+
+00:01:55.024 --> 00:01:59.312
+Celebrate; you've waited so long for this day.
+
+00:02:01.467 --> 00:02:07.227
+These are separate scenarios. The task is to infer how to speak from the interaction.
+
+00:02:08.967 --> 00:02:15.387
+Our system first turns the context into an explicit speaking instruction: for example,
+
+00:02:15.387 --> 00:02:18.351
+low volume and a gentle tone.
+
+00:02:19.717 --> 00:02:25.065
+The speech generator follows that instruction to say the reply, using a reference
+
+00:02:25.065 --> 00:02:25.477
+voice.
+
+00:02:26.842 --> 00:02:32.737
+Across dialogue turns, the instruction can change. The same reference voice is reused
+
+00:02:32.737 --> 00:02:35.458
+to help keep the speaker consistent.
+
+00:02:36.842 --> 00:02:42.773
+Training teaches the instruction model to read the situation, and the speech model to
+
+00:02:42.773 --> 00:02:46.586
+follow style, preserve the voice, and fit the context.
+
+00:02:47.967 --> 00:02:54.936
+Interactive TTS. Understand the situation. Adapt the expression. Explore the full demo
+
+00:02:54.936 --> 00:02:56.679
+for more examples.
